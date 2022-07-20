@@ -23,13 +23,13 @@ public class Contact {
     //creating the getter
 
     public String getName() { return this.name; }
-    public void setName() {this.name=name; }
+    public void setName(String name) {this.name=name; }
 
     public String getEmail() { return this.email; }
-    public void setEmail() { this.email=email; }
+    public void setEmail(String email) { this.email=email; }
 
-    public String getphone() { return this.phone; }
-    public void setPhone() { this.phone=phone; }
+    public String getPhone() { return this.phone; }
+    public void setPhone(String phone) { this.phone=phone; }
 
     @Override
     public String toString() {
