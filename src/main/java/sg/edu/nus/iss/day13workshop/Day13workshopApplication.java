@@ -45,13 +45,6 @@ public class Day13workshopApplication implements ApplicationRunner{
 		}
 	}
 
-	//method to save the data (from the...) in C:/data
-	public boolean save() {
-		//change later
-		return false;
-	}
-
-	//method to read the file
-	public void read(String fileId) {}
+	
 
 }

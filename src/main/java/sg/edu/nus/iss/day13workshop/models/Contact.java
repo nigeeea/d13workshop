@@ -28,7 +28,7 @@ public class Contact {
     public String getEmail() { return this.email; }
     public void setEmail() { this.email=email; }
 
-    public String phone() { return this.phone; }
+    public String getphone() { return this.phone; }
     public void setPhone() { this.phone=phone; }
 
     @Override
